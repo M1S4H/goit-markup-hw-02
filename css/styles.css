@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
-
+:root {
+  --text-color: #ffffff;
+  --title-color: #757575;
+}
 .pointer {
   cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  font-weight: 400;
 }
 .logo {
   font-family: "Raleway";
@@ -11,12 +19,9 @@
   line-height: 0.84;
 }
 .links {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 0.875;
-  color: #212121;
 }
 
 .links:hover,
@@ -24,12 +29,10 @@
   color: #2196f3;
 }
 .adress {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 0.875;
-  color: #757575;
+  color: var(--title-color);
 }
 .adress:hover,
 .adress:focus {
@@ -37,111 +40,79 @@
 }
 
 h1 {
-  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
   background: #2f303a;
-  color: #ffffff;
+  color: var(--text-color);
 }
 .button-order {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
 }
 .button-order:hover {
-  color: #ffffff;
+  color: var(--text-color);
   background: #2196f3;
 }
 
 .h3-lorem {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 0.875;
-  color: #212121;
 }
 .p-lorem {
-  font-family: "Roboto";
-  font-style: sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 0.58;
-  color: #757575;
+  color: var(--title-color);
 }
 .h2-todo {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 0.86;
   color: #212121;
 }
 .h2-team {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 0.86;
-  color: #212121;
 }
 .h3-team {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 0.85;
-  color: #212121;
 }
 .p-team {
-  font-family: "Roboto";
-  font-style: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 0.85;
-  color: #757575;
+  color: var(--title-color);
 }
 .p-adress {
-  font-family: "Roboto";
-  font-style: sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 0.5833333333;
-  color: #ffffff;
+  color: var(--text-color);
 }
 footer {
   background: #2f303a;
 }
 .button-select {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.65;
-  color: #212121;
   background: #f5f4fa;
 }
 .button-select:hover,
 .button-select:focus {
-  color: #ffffff;
+  color: var(--text-color);
   background-color: #2196f3;
 }
 .order-title {
-  font-family: "Roboto";
-  font-style: sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  color: #212121;
 }
 .order-text {
-  font-family: "Roboto";
-  font-style: sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  color: #757575;
+  color: var(--title-color);
 }
