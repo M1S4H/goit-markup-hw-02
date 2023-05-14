@@ -2,7 +2,8 @@
 :root {
   --text-color: #ffffff;
   --title-color: #757575;
-  --color-niebo: #2196f3;
+  --niebo-color: #2196f3;
+  --dark-color: #212121;
 }
 .pointer {
   cursor: pointer;
@@ -23,6 +24,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 0.875;
+  color: var(--dark-color);
 }
 
 .links:hover,
@@ -53,8 +55,8 @@ h1 {
   line-height: 1.5;
 }
 .button-order:hover {
-  color: var(--text-color);
-  background: var(--niebo-color);
+  color: #ffffff;
+  background: #2196f3;
 }
 
 .h3-lorem {
