@@ -2,6 +2,7 @@
 :root {
   --text-color: #ffffff;
   --title-color: #757575;
+  --color-niebo: #2196f3;
 }
 .pointer {
   cursor: pointer;
@@ -26,7 +27,7 @@ body {
 
 .links:hover,
 .links:focus {
-  color: #2196f3;
+  color: var(--niebo-color);
 }
 .adress {
   font-weight: 500;
@@ -36,7 +37,7 @@ body {
 }
 .adress:hover,
 .adress:focus {
-  color: #2196f3;
+  color: var(--niebo-color);
 }
 
 h1 {
@@ -53,7 +54,7 @@ h1 {
 }
 .button-order:hover {
   color: var(--text-color);
-  background: #2196f3;
+  background: var(--niebo-color);
 }
 
 .h3-lorem {
@@ -70,7 +71,6 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 0.86;
-  color: #212121;
 }
 .h2-team {
   font-weight: 700;
@@ -104,7 +104,7 @@ footer {
 .button-select:hover,
 .button-select:focus {
   color: var(--text-color);
-  background-color: #2196f3;
+  background-color: var(--niebo-color);
 }
 .order-title {
   font-weight: 700;
